@@ -12,5 +12,3 @@ end
 
 def move(board, user_input, player = "X")
 end
-
-move(board, 0, "X")
