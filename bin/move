@@ -14,7 +14,7 @@ index = input_to_index(user_input)
 move(board, 0 , player = "X")
 
 
-display_board(board, index, player)
+display_board(board)
 
 
 
