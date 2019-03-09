@@ -3,11 +3,9 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-board = get_variable_from_file("./bin/move", "board")
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
  
-run_file("./bin/move")
 
 puts "Where would you like to go?"
 input = gets.strip
