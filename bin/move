@@ -9,7 +9,7 @@ end
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
  
-
+run_file
 puts "Where would you like to go?"
 input = gets.strip
 input_to_index = index
