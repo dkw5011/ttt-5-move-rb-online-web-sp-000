@@ -9,7 +9,9 @@ end
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
  
-run_file
+run_file("./bin/move")
+end
+
 puts "Where would you like to go?"
 input = gets.strip
 input_to_index = index
